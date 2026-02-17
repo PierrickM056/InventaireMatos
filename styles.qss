@@ -103,3 +103,24 @@ QScrollBar::handle:vertical {
 QScrollBar::handle:vertical:hover {
     background: #444444;
 }
+/* Boutons spécifiques à l'intérieur des tableaux */
+QTableWidget QPushButton {
+    background-color: #2a2a2a;
+    border: 1px solid #3d3d3d;
+    border-radius: 3px;
+    margin: 4px; /* Crée l'espace autour du bouton dans la cellule */
+    padding: 2px;
+}
+
+QTableWidget QPushButton:hover {
+    background-color: #3d3d3d;
+}
+#Toast {
+    background-color: #333333;
+    color: #00FF00;
+    font-weight: bold;
+    border: 1px solid #00FF00;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 14px;
+}
