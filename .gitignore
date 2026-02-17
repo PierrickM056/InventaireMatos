@@ -1,0 +1,13 @@
+# Environnement virtuel
+venv/
+.venv/
+
+# Python
+__pycache__/
+*.pyc
+
+# Base de données (on ne veut pas la version de test sur le cloud)
+database/*.db
+
+# Données locales (photos, factures, QR générés)
+data/

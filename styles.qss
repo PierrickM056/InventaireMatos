@@ -1,0 +1,105 @@
+/* Fond principal de l'application */
+QMainWindow {
+    background-color: #121212;
+}
+
+/* Barre latérale (Dashboard) */
+#Sidebar {
+    background-color: #1e1e1e;
+    border-right: 1px solid #333333;
+    min-width: 200px;
+    max-width: 200px;
+}
+
+/* Contenu principal */
+#MainContent {
+    background-color: #121212;
+}
+
+/* Boutons de la barre latérale */
+QPushButton {
+    background-color: transparent;
+    color: #b0b0b0;
+    border: none;
+    padding: 12px;
+    text-align: left;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+QPushButton:hover {
+    background-color: #2a2a2a;
+    color: #ffffff;
+}
+
+/* Bouton actif ou d'action principale */
+QPushButton#ActionBtn {
+    background-color: #0078d7;
+    color: white;
+    border-radius: 5px;
+    padding: 8px 15px;
+    text-align: center;
+}
+
+QPushButton#ActionBtn:hover {
+    background-color: #005a9e;
+}
+
+/* Tableaux (Inventaire) */
+QTableWidget {
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+    gridline-color: #333333;
+    border: none;
+    selection-background-color: #0078d7;
+}
+
+QHeaderView::section {
+    background-color: #252525;
+    color: #888888;
+    padding: 5px;
+    border: 1px solid #333333;
+    font-weight: bold;
+}
+
+/* Champs de saisie */
+QLineEdit, QComboBox, QTextEdit {
+    background-color: #252525;
+    color: white;
+    border: 1px solid #3d3d3d;
+    border-radius: 4px;
+    padding: 6px;
+}
+
+QLineEdit:focus {
+    border: 1px solid #0078d7;
+}
+
+/* Titres */
+QLabel#TitleLabel {
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+QLabel {
+    color: #b0b0b0;
+}
+
+/* Scrollbars modernes */
+QScrollBar:vertical {
+    border: none;
+    background: #121212;
+    width: 10px;
+}
+
+QScrollBar::handle:vertical {
+    background: #333333;
+    min-height: 20px;
+    border-radius: 5px;
+}
+
+QScrollBar::handle:vertical:hover {
+    background: #444444;
+}
